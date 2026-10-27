@@ -1,0 +1,18 @@
+EECE430 Assignment 3 - calculation check
+
+Sample inventory item: Chocolate bar
+Quantity in stock: 10
+Unit price: 2.50
+Question: What is the cost of 3 items of chocolate bar after adding 10% VAT?
+
+Tool calculation (checked locally without calling the Gemini API):
+3 x 2.50 = 7.50 subtotal
+10% x 7.50 = 0.75 VAT
+Total = 8.25
+Stock is unchanged by this quote.
+
+This is an offline calculation check, not a screenshot or transcript of a live AI chat.
+
+Live AI chat result: see screenshots/chat_result.png.
+The Inventory Agent answered: "The cost for 3 chocolate bars including 10% VAT
+is 8.25 (subtotal 7.50 plus 0.75 VAT)." This matches the calculation above.
